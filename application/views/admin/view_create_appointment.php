@@ -89,7 +89,7 @@
                             <div class="form-group row">
                                 <div class="col-sm-offset-3 col-sm-6">
                                     <button type="reset" class="btn btn-danger"><?php echo display('reset')?></button>
-                                    <button type="reset" disabled class="btn btn-success"><?php echo display('appointment')?></button>
+                                    <button type="submit" disabled class="btn btn-success"><?php echo display('appointment')?></button>
                                 </div>
                             </div>
                           </div>  
@@ -129,7 +129,7 @@
                         container.html("<?php echo display('patient_name_load_msg')?>");
                     }else{ 
                         container.html(data);
-                        $('button[type=submit]').prop('disabled', true);
+                        $('button[type=submit]').prop('disabled', false);
                     }
                 }
             });

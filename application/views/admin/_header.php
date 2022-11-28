@@ -86,8 +86,8 @@
                         <img src="<?php echo @$result->picture;?>" alt="">
                     </span>
                     <span class="logo-lg">
-                        <h2 style="font-family: cursive; margin: 11px; color: #eb2f06;"><marquee>Sta. Cecilia MJ OB Midwife Lying in Clinic corporation</marquee></h2>
-                        <img src="<?php echo @$result->picture;?>" alt="">
+                        <!-- <h2 style="font-family: cursive; margin: 11px; color: #eb2f06;"><marquee>Sta. Cecilia MJ OB Midwife Lying in Clinic corporation</marquee></h2> -->
+                        <img src="<?php echo @$result->picture;?>" alt="" height="100" width="80">
                     </span>
                 </a>
 
@@ -117,6 +117,7 @@
                         </ul>
    
                     </div>
+                    <h2 style="font-family: cursive; margin: 11px; color: #eb2f06;"><marquee>Sta. Cecilia MJ OB Midwife Lying in Clinic Corporation</marquee></h2>
                 </nav>
             </header>
            

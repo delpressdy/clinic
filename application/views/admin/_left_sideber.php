@@ -74,6 +74,7 @@
                         <div class="info">
                             <p style="background-color: #eb2f06; padding: 5px; border-radius: 16px; font-family: cursive;"><?php echo 'Ma. Cecilia Beto' ?></p>
                             <a id="tots" href="#" class="text-success"><i class="fa fa-circle text-success"></i> Online</a>
+                            
                         </div>
                     </div>
                     <!-- sidebar menu -->

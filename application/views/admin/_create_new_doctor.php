@@ -43,7 +43,7 @@
                                 <div class="form-group">
                                     <label class="col-md-3 control-label"> <?php echo 'Name';?> </label>
                                     <div class="col-md-7">
-                                        <input type="text" name="name" class="form-control" value="This is a sample" placeholder="Enter name" required autofocus> 
+                                        <input type="text" name="name" class="form-control"  placeholder="Enter name" required autofocus> 
                                      <?php echo form_error('name', '<div class=" text-danger">', '</div>'); ?>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
                                 <div class="form-group">
                                     <label class="col-md-3 control-label"><?php echo display('password');?> </label>
                                     <div class="col-md-7">
-                                    <input type="password" name="password" class="form-control" value="This is a sample" placeholder="<?php echo display('password');?>"  required> 
+                                    <input type="password" name="password" class="form-control"  placeholder="<?php echo display('password');?>"  required> 
                                      <?php echo form_error('password', '<div class=" text-danger">', '</div>'); ?>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@
                                 <div class="form-group">
                                     <label class="col-md-3 control-label"><?php echo display('designation');?></label>
                                     <div class="col-md-7">
-                                    <input type="text" name="designation" value="This is a sample"  class="form-control" placeholder="Prenatal Room / Delivery Room">
+                                    <input type="text" name="designation"   class="form-control" placeholder="Prenatal Room / Delivery Room">
                                     </div>
                                 </div>
 
@@ -80,7 +80,7 @@
                                  <div class="form-group">
                                     <label class="col-md-3 control-label"><?php echo 'Work Experience '?><small><i style="color: red;">(optional)</i></small></label>
                                     <div class="col-md-7">
-                                        <input type="text" name="doctor_exp" value="This is a sample"  class="form-control" placeholder="experience"> 
+                                        <input type="text" name="doctor_exp"   class="form-control" placeholder="experience"> 
                                     </div>
                                 </div>
 
@@ -113,14 +113,14 @@
                                 <div class="form-group">
                                     <label class="col-md-3 control-label"><?php echo display('birth_date');?></label>
                                     <div class="col-md-7">
-                                       <input type="text" requeird name="birth_date" value="This is a sample" class="form-control datepicker1" placeholder="<?php echo display('date_placeholder');?>">
+                                       <input type="text" requeird name="birth_date"  class="form-control datepicker1" placeholder="<?php echo display('date_placeholder');?>">
                                      </div>
                                 </div>
 
                                 <div class="form-group">
                                     <label class="col-md-3 control-label"><?php echo display('phone_number');?></label>
                                     <div class="col-md-7">
-                                        <input type="text" required  name="phone" value="This is a sample" class="form-control" placeholder="<?php echo display('phone_number');?>"> 
+                                        <input type="text" required  name="phone"  class="form-control" placeholder="<?php echo display('phone_number');?>"> 
                                      <?php echo form_error('phone', '<div class=" text-danger">', '</div>'); ?>
                                     </div>
                                 </div>
@@ -169,7 +169,7 @@
                                  <div class="form-group">
                                     <label class="col-md-3 control-label"><?php echo display('address');?></label>
                                     <div class="col-md-7">
-                                        <input type="text" name="address" value="This is a sample" class="form-control" placeholder="Address">
+                                        <input type="text" name="address"  class="form-control" placeholder="Address">
                                     </div>
                                 </div>
 
